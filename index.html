@@ -25,7 +25,7 @@
         <h2>Sobre mim</h2>
 
         <!-- Coloque a imagem na mesma pasta do HTML -->
-        <img src="<img src="588629532_18410054119137779_1956129207580682253_n.jpg" alt="Minha foto">
+        <img src="<img src=" 588629532_18410054119137779_1956129207580682253_n.jpg" alt="Minha foto">
 
         <article>
             <p>
@@ -50,13 +50,96 @@
             <h3>Portfolio</h3>
             <p>
                 Este foi o primeiro site que eu criei <3 </p>
+
         </article>
+
+    </section>
+
+    <section id="Habilidades"></section>
+
+    <h2>Habilidades e Tecnologias</h2>
+
+    <table>
+
+        <thead>
+
+            <tr>
+
+                <th>Tecnologia</th>
+                <th>Nivel</th>
+                <th>Descricao</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>HTML</td>
+                <td>Iniciante</td>
+                <td>Capaz de construir estruturas de paginas web sementricas e responsivas.</td>
+            </tr>
+
+            <tr>
+
+                <td>CSS</td>
+                <td>Intermeiario</td>
+                <td>Expeeriencia com flexbox, grid e animacoes</td>
+
+            </tr>
+
+            <tr>
+
+                <td>JavaScript</td>
+                <td>Basico</td>
+                <td>Desenvolvimente de scripts do lado do cliente para interacoes</td>
+            </tr>
+        </tbody>
+
+
+    </table>
+
     </section>
 
     <section id="contato">
         <h2>Contatos</h2>
 
         <p>Tem um projeto em mente? Entre em contato.</p>
+
+        <form action="">
+
+            <label for="nome">nome: </label>
+            <input type="text" id="nome" name="nome" required> <br>
+
+            <label for="email">E-mail: </label>
+            <input type="email" id="email" name="email" rrequired> <br>
+
+            <label for="telefone">Telefone: </label>
+            <input type="tel" id="Telefone" name="Telefone" required> <br>
+            <br>
+
+            <label for="assunto">assunto: </label>
+            <select name="" id="assunto">
+                <option value="Orcamento">orcamento</option>
+                <option value="Duvida">Duvida</option>
+                <option value="outro">Outro</option>
+            </select>
+            <br>
+
+            <label for="menssagem">menssagem: </label>
+            <textarea name="menssagem" id="menssagem" color="5"></textarea>
+            <br>
+
+            <input type="checkbox" id="inscricao" name="inscricao">
+            <label for="inscricao">Deseja receber minha newletter? Fique por dentro.</label>
+
+            <br>
+
+            <input type="submit" value="Enviar menssagem">
+
+            <br>
+
+        </form>
 
         <address>
             E-mail:
